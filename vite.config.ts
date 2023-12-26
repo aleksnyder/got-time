@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: 'https://aleksnyder.github.io/got-time/',
+  base: '/got-time/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
